@@ -1,8 +1,6 @@
 {
-    "rewrites": [
-        {
-            "source": "/:path*",
-            "destination": "/api/vercel.js"
-        }
-    ]
+"rewrites": [
+    {"source": "/(.*)", "destination": "/"}
+]
 }
+
